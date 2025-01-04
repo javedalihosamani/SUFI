@@ -1,0 +1,12 @@
+span > a > svg, span > a > path{
+    margin: 10px;
+    transition: 2s;
+    padding: 5px;
+    color: #cca456 !important;
+    font-size: 40px;
+    border: 2px solid #cca456;
+    border-radius: 10px;
+}
+:is(svg, path):hover{
+    transform: rotate(360deg);
+}

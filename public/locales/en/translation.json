@@ -1,0 +1,31 @@
+{
+    "greeting":"Hello, Welcome!",
+    "description":{
+        "line1":"You are watching <1>{{channel}}</1> React App.",
+        "line2":"Select a language from the dropdown menu to see the translation."
+    },
+    "sufi": {
+        "title": "Sufism",
+        "sufiDescription":{
+        "line1": "Sufism may be best described as Islamic mysticism or asceticism, which through belief and practice helps Muslims attain nearness to Allah by way of direct personal experience of God. While there are other suggested origins of the term Sufi, the word is largely believed to stem from the Arabic word suf, which refers to the wool that was traditionally worn by mystics and ascetics.",
+        "line2": "Sufism is a mystical form of Islam, a school of practice that emphasizes the inward search for God and shuns materialism. It has produced some of the world’s most beloved literature, like the love poems of the 13th-century Iranian jurist Rumi. Sufism grew out of early asceticism, which was characterized by the solitary or monastic life, and focused on the personal spiritual development of the individual. Sufis sought to find the truth of divine love and knowledge through direct personal experience of God.",
+        "line3": "Belief in pursuing a path that leads to closeness with God, ultimately through encountering the divine in the hereafter, is a fundamental component of Islamic belief. However, in Sufi thought this proximity can be realized in this life."
+        }
+    },
+    "footerTitle":"All rights reserved by Hazrat Khwaja Sufi Abdul Rehman Sha Baba Qutbul Asfiya",
+    "history": {
+        "title": "Hazrat Khwaja Sufi Abdul Rehman Sha Baba Qutbul Asfiya",
+        "card": {
+            "title":{
+                "baba1" : "Hazrat Khwaja Sufi Abdul Rehman Sha Baba Qutbul Asfiya (Q.S.A)",
+                "baba2" : "Hazrat Khwaja Sufi Riyaz Ahmed Sha Baba Beriya (Q.S.A)",
+                "baba3" : "Sajjade Nashin Sufi Hassan Chishti Sarkar"
+            }
+        },
+        "historyDescription":{
+        "line1": "",
+        "line2": "",
+        "line3": ""
+        }
+    }  
+}

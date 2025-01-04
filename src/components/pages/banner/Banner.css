@@ -1,0 +1,50 @@
+.banner{
+    background: url('./desktop.png')no-repeat center;
+    background-size: 100%;
+    height: 80vh;
+    animation: bannerDesktop 20s ease-in-out  infinite;
+}
+@keyframes bannerDesktop {
+    from{
+        background: url('./desktop.png')no-repeat top;
+        background-size: 100%;
+    }
+    to{
+        background: url('./desktop.png')no-repeat bottom;
+        background-size: 100%;
+    }
+}
+
+@media(max-width: 768px){
+    .banner{
+        background: url('./mobile.png')no-repeat center;
+        animation: bannerMobile 20s ease-in-out  infinite;
+    }
+    @keyframes bannerMobile {
+        from{
+            background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./mobile.png')no-repeat top;
+            background-size: 100%;
+        }
+        to{
+            background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./mobile.png')no-repeat bottom;
+            background-size: 100%;
+        }
+    } 
+}
+
+@media(min-width: 769px) and (max-width: 1024px){
+    .banner{
+        background: url('./tab.jpg')no-repeat center;
+        animation: bannerTab 20s ease-in-out  infinite;
+    }
+    @keyframes bannerTab {
+        from{
+            background: url('./tab.jpg')no-repeat top;
+            background-size: 100%;
+        }
+        to{
+            background: url('./tab.jpg')no-repeat bottom;
+            background-size: 100%;
+        }
+    } 
+}

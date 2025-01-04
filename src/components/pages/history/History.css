@@ -1,0 +1,21 @@
+.history{
+    background:linear-gradient(90deg,rgba(250, 217, 97,0.9) 0%, rgba(247, 107, 28,0.9) 100%), url(./images/history.png) no-repeat center;
+    height:250px;
+    background-size: 100%;
+    animation: history 20s ease-in-out  infinite;
+}
+/* @keyframes history{
+    0%{
+        background-size: 100%;
+    }
+    50%{
+        background-size: 120%;
+    }
+    100%{
+        background-size: 100%;
+    }
+} */
+@keyframes history {
+    from{background-position: top;}
+    to{background-position: bottom;}
+}
