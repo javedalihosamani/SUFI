@@ -1,8 +1,9 @@
 import { useTranslation } from 'react-i18next';
-import './History.css'
 import dadaMurshid from './images/dadaMurshid.jpeg';
 import riyazBaba from './images/riyazbaba.jpeg';
 import chistibaba from './images/chistibaba.jpeg';
+import './History.css'
+
 const History = () => {
     const {t} = useTranslation();
     const {title} = t('history');

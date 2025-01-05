@@ -1,4 +1,4 @@
-import { Footer, History, Home, Navbar, Pnf, Sufi } from "./components"
+import { About, Footer, History, Home, Navbar, Pnf, Sufi } from "./components"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import sounds from './assets/allah.mp3';
 import { useEffect } from "react";
@@ -19,6 +19,7 @@ function App() {
             <Route path="/home" element={<Home />} />
             <Route path="/sufi" element={<Sufi />} />
             <Route path="/history" element={<History />} />
+            <Route path="/about" element={<About />} />
             <Route path="*" element={<Pnf />} />
           </Routes>
         <Footer/>
